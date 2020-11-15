@@ -91,43 +91,39 @@
             <nav class="heading__navbar">
                 <div class="container">
                     <div class="heading__heading-grid">
-                        <div class="heading__department-menu">
-                            <ul>
-                                <li>
-                                    <i class="fa fa-bars" aria-hidden="true"></i>
-                                    <span>Departments</span>
-                                    <div class="heading__dropdown-menu">
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Computer
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Smart TV
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Smart Phone
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Watch
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Headphones
-                                        </a>
-                                        <a href="#">
-                                            <i class="fa fa-desktop" aria-hidden="true"></i> Webcam
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="heading__primary-menu">
-                            <ul>
-                                <li><a href="index.html" class="active">Home</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="#">Account</a></li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                            </ul>
-                        </div>
+                        <ul class="heading__department-menu">
+                            <li>
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                <span>Departments</span>
+                                <div class="heading__dropdown-menu">
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Computer
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Smart TV
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Smart Phone
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Watch
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Headphones
+                                    </a>
+                                    <a href="#">
+                                        <i class="fa fa-desktop" aria-hidden="true"></i> Webcam
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>                                              
+                        <ul class="heading__primary-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>   
                     </div>
                 </div>
             </nav>
@@ -139,12 +135,12 @@
             <div class="container">
                 <div class="main__main-grid">
                     <div class="main__product-name">
-                        <h1>Smartwatch Youth Edition</h1>
+                        <h1 style="text-align: center;">Smartwatch Youth Edition</h1>
                     </div>
                     <ul>
                         <li><a href="#">Home ></a></li>
                         <li><a href="#">category ></a></li>
-                        <li><a href="#">product </a></li>
+                        <li><a href="#" style="color: #fe696a;">product </a></li>
                     </ul>
                 </div>
             </div>
@@ -155,23 +151,25 @@
                 <div class="main__product">
                     <div class="main__main-grid">
                         <ul class="main__tabs-list">
-                            <li class="tab-item">General info</li>
+                            <li class="tab-item" >General info</li>
                             <li class="tab-item">Tech Specs</li>
                         </ul>
                     </div>
     
                     <div class="main__main-grid">
-                        <div class="main__img-slide">
-                            <img class="thumbnail" src="./image/th05.jpg" alt="">
-                            <img class="thumbnail" src="./image/th06.jpg" alt="">
-                            <img class="thumbnail" src="./image/th07.jpg" alt="">
-                            <img class="thumbnail" src="./image/th08.jpg" alt="">
-                        </div>
-                        <div class="main__img-product">
-                            <img class="featured"  src="./image/05 (3).jpg" alt="">
-                            <img class="featured"  src="./image/06 (7).jpg" alt="">
-                            <img class="featured"  src="./image/07 (5).jpg" alt="">
-                            <img class="featured"  src="./image/08 (3).jpg" alt="">
+                        <div class="main__main-grid">
+                            <div class="main__img-slide">
+                                <img class="thumbnail" src="./image/th05.jpg" alt="">
+                                <img class="thumbnail" src="./image/th06.jpg" alt="">
+                                <img class="thumbnail" src="./image/th07.jpg" alt="">
+                                <img class="thumbnail" src="./image/th08.jpg" alt="">
+                            </div>
+                            <div class="main__img-product">
+                                <img class="featured"  src="./image/05 (3).jpg" alt="">
+                                <img class="featured"  src="./image/06 (7).jpg" alt="">
+                                <img class="featured"  src="./image/07 (5).jpg" alt="">
+                                <img class="featured"  src="./image/08 (3).jpg" alt="">
+                            </div>
                         </div>
                         <ul class="info-product">
                             <li><h2>Name product</h2></li>
@@ -209,7 +207,75 @@
                 <div class="main__main-grid main--flex-center">
                     <h2>You may also like</h2>
                 </div>
-                <div class="main__main-grid">
+                <div class="owl-carousel owl-theme" id="testimonial-slider-3">
+                    <div class="main__main-item">
+                        <div class="main__card-action">
+                            <a href="#" class="btn-action">
+                                <i class="fa fa-refresh" aria-hidden="true"></i> Compare
+                            </a>
+                            <button class="btn-wishlist">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="main__img-products">
+                            <a href="detail.html">
+                                <img src="./image/58.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="main__info-products">
+                            <a href="#" class="main__product-meta">Headphones</a>
+                            <h3 class="main__product-title">
+                                <a href="">Wireless Bluetooth Headphones</a>
+                            </h3>
+                        </div>
+                        <div class="main__product-price-rating">
+                            <div class="product-price">
+                                <span>$198.<small>00</small></span>
+                            </div>
+                            <div class="main__star-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__main-item">
+                        <div class="main__card-action">
+                            <a href="#" class="btn-action">
+                                <i class="fa fa-refresh" aria-hidden="true"></i> Compare
+                            </a>
+                            <button class="btn-wishlist">
+                                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="main__img-products">
+                            <a href="detail.html">
+                                <img src="./image/58.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="main__info-products">
+                            <a href="#" class="main__product-meta">Headphones</a>
+                            <h3 class="main__product-title">
+                                <a href="">Wireless Bluetooth Headphones</a>
+                            </h3>
+                        </div>
+                        <div class="main__product-price-rating">
+                            <div class="product-price">
+                                <span>$198.<small>00</small></span>
+                            </div>
+                            <div class="main__star-rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="main__main-item">
                         <div class="main__card-action">
                             <a href="#" class="btn-action">
